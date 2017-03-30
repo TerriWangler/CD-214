@@ -1,0 +1,33 @@
+*, *:before, *:after {
+	/*show this as a fix for two column layout*/
+  box-sizing: border-box;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Helvetica, sans-serif;
+
+}
+
+
+
+#video
+	/*background-image needs a width and a height of the div to display*/
+	width: 400px;
+	height: 800px;
+	background-image: url("https://www.youtube.com/embed/be37-T72DNk");
+	border-radius: 50%;
+	background-size: cover;
+
+
+h1 {
+ font-family: Helvetica;
+ color: white;
+ margin: 40px;
+
+}
+
+
+
+
